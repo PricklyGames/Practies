@@ -11,6 +11,8 @@ public class ex_1 : MonoBehaviour
         string stroka = "Lorem ipsum dolor sit amet, consectetur Adipiscing0 elit. Mauris gravida Aliquam ante nec luctus.";
         int count = 0, countA = 0;
 
+        Debug.Log("Начало первого задания");
+
         foreach (char c in stroka)
         {
             count++;
@@ -29,6 +31,8 @@ public class ex_1 : MonoBehaviour
 
         Debug.Log($"В предложении {count} символов");
         Debug.Log($"В предложении {countA} символов a");
+
+        Debug.Log("Конец первого задания");
 
     }
 

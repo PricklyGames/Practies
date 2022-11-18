@@ -13,7 +13,9 @@ public class ex_2 : MonoBehaviour
 
         square = PI * Mathf.Pow(radius, 2);
 
+        Debug.Log("Начало второго задания");
         Debug.Log($"Площадь круга равна {square}");
+        Debug.Log("Конец второго задания");
     }
 
 }

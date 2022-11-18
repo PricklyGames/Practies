@@ -10,12 +10,15 @@ public class ex_3 : MonoBehaviour
         float set_square_rectangle = 25.0f, length = 7f, width = 10f, square_rectangle;
         square_rectangle = length * width;
 
+        Debug.Log("Начало третьего задания");
         Debug.Log($"Площадь прямоугольника: {square_rectangle}");
 
         if (square_rectangle > set_square_rectangle)
         {
             Debug.Log($"Площадь прямогульника меньше заданной на {square_rectangle - set_square_rectangle}");
         }
+
+        Debug.Log("Конец третьего задания");
 
     }
 
