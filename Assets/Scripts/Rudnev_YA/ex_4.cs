@@ -7,13 +7,13 @@ public class ex_4 : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Debug.Log("Начало четвёртого задания");
+        Debug.Log("The beginning of the fourth task");
 
         for (int i = 5; i <= 10; i++)
         {
             Debug.Log($"{i} x 5 = {i * 5}");
         }
 
-        Debug.Log("Конец четвёртого задания");
+        Debug.Log("End of the fourth task");
     }
 }

@@ -11,7 +11,7 @@ public class ex_1 : MonoBehaviour
         string stroka = "Lorem ipsum dolor sit amet, consectetur Adipiscing0 elit. Mauris gravida Aliquam ante nec luctus.";
         int count = 0, countA = 0;
 
-        Debug.Log("Начало первого задания");
+        Debug.Log("The beginning of the first task");
 
         foreach (char c in stroka)
         {
@@ -19,7 +19,7 @@ public class ex_1 : MonoBehaviour
 
             if (c == '0')
             {
-                Debug.Log($"В предложении есть символ 0, его индекс {count - 1}.");
+                Debug.Log($"The sentence has the symbol 0, its index {count - 1}.");
                 break;
             }
 
@@ -29,10 +29,10 @@ public class ex_1 : MonoBehaviour
             }
         }
 
-        Debug.Log($"В предложении {count} символов");
-        Debug.Log($"В предложении {countA} символов a");
+        Debug.Log($"In the sentence {count} characters");
+        Debug.Log($"In the sentence {countA} characters a");
 
-        Debug.Log("Конец первого задания");
+        Debug.Log("End of the first task");
 
     }
 
