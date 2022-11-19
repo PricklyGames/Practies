@@ -4,3 +4,5 @@ Temp
 UserSettings
 *.csproj
 Practies.sln
+obj
+.vs
