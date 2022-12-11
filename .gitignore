@@ -6,3 +6,5 @@ UserSettings
 Practies.sln
 .DS_Store
 UserSettings
+obj
+.vs
