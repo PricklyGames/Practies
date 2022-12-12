@@ -13,7 +13,7 @@ public class ex_6 : MonoBehaviour
 
         int number1, number2;
 
-        RandNum(in count, out number1);
+        RandNum(count, out number1);
         RandNumRef(ref count, out number2);
 
         Debug.Log(number1);
@@ -21,7 +21,7 @@ public class ex_6 : MonoBehaviour
 
         // Methods
 
-        void RandNum (in int count, out int number)
+        void RandNum (int count, out int number)
         {
             number = Random.Range(0, count);
         }
