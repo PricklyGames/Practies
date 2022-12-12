@@ -18,16 +18,23 @@ public class ex_7 : MonoBehaviour
 
     public DayWeek dayWeek;
 
+    DayWeek dayWeekTemp;
+
     // Start is called before the first frame update
     void Start()
     {
         PrintDay(dayWeek);
+        dayWeekTemp = dayWeek;
     }
 
     // Update is called once per frame
-    void LateUpdate()
+    void Update()
     {
-        PrintDay(dayWeek);
+        if (dayWeekTemp != dayWeek)
+        {
+            dayWeekTemp = dayWeek;
+            PrintDay(dayWeekTemp);
+        }
     }
 
     void PrintDay(DayWeek dayWeek)
