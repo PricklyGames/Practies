@@ -11,15 +11,22 @@ public class ex_6 : MonoBehaviour
     void Start()
     {
 
-        int number;
+        int number1, number2;
 
-        RandNum(in count, out number);
+        RandNum(in count, out number1);
+        RandNumRef(ref count, out number2);
 
-        Debug.Log(number);
+        Debug.Log(number1);
+        Debug.Log(number2);
 
-        // Method
+        // Methods
 
         void RandNum (in int count, out int number)
+        {
+            number = Random.Range(0, count);
+        }
+
+        void RandNumRef(ref int count, out int number)
         {
             number = Random.Range(0, count);
         }
