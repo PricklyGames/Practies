@@ -4,3 +4,7 @@ Temp
 UserSettings
 *.csproj
 Practies.sln
+.DS_Store
+UserSettings
+obj
+.vs
