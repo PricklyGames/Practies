@@ -4,3 +4,10 @@ Temp
 UserSettings
 *.csproj
 Practies.sln
+.vs
+obj
+UserSettings
+Assets/p1.cs
+Assets/pr1.unity
+Assets/pr1.unity.meta
+Assets/p1.cs.meta
