@@ -2,34 +2,55 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ex1 : MonoBehaviour
+public class ex1 : MonoBehaviour 
 {
     
     void Start()
     {
-        string l = "Aayrt0trbAa";
-        int i = 0;
-        int k = 0;
-        int u = 0;
-        foreach(char s in l)
-            if (s == 'a' || s == 'A')
-            i++;        
-            print(i);
-        foreach(char s in l)
-            k++;
-            print(k);
-        foreach(char s in l)
+        print("ex1");
+        int[][] array = 
         {
-        
-            if (s == '0')
-            {     
-                print(u);
-                break;
+            new int[] {1, 3, 4},
+            new int[] {4, 7, 8},
+            new int[] {2, 9, 0}
+        };
+        int Min = array[0][0];   
+        for(int i = 0; i < array.Length; i++)
+        {
+            for(int j = 0; j < array[i].Length; j++)
+            {
+                if (array[i][j] < Min)
+                Min = array[i][j];
             }
-            u++;
         }
+        int Max = array[0][0];
+        int t = 0;
+        for(int i = 0; i < array.Length; i++)
+        {
+            for(int j = 0; j < array[i].Length; j++)
+            {
+                if (array[i][j] > Max)
+                Max = array[i][j];
+                t++;
+    
+            }
+        }
+    
+            
         
+        print($"{Min},{Max},{t}");
+
     }
+        
+
+                
+                
+                
+
+           
+
+        
+       
 
     
     void Update()

@@ -4,28 +4,90 @@ using UnityEngine;
 
 public class ex3 : MonoBehaviour
 {
-    
+
     void Start()
     {
-        int a = 4;
-        int b = 5;
-        int S1 = 16;
-        int S2 = a * b;
-        int raznica = S2 - S1;
-        if (S2 > S1)
+        print("ex3");
+        int[][] array = 
         {
-            print(S2);
+            new int[] {1, 3, 4},
+            new int[] {4, 7, 8},
+            new int[] {2, 9, 0}
+        };
+        int[][] array1 = 
+        {
+            new int[] {1, 0, 1, 1},
+            new int[] {0, 1, 1},
+            new int[] {0, 1, 0, 0}
+        };
+        int Min = array[0][0];   
+        for(int i = 0; i < array.Length; i++)
+        {
+            for(int j = 0; j < array[i].Length; j++)
+            {
+                if (array[i][j] < Min)
+                Min = array[i][j];
+            }
+        }
+        int Max = array[0][0];
+        int t = 0;
+        for(int i = 0; i < array.Length; i++)
+        {
+            for(int j = 0; j < array[i].Length; j++)
+            {
+                if (array[i][j] > Max)
+                Max = array[i][j];
+                t++;
+    
+            }
+        }
+        string f = "Элемент найден";
+        for(int i = 0; i < array1.Length; i++)
+        {
+            for(int j = 0; j < array1[i].Length; j++)
+            {
+
+
+                
+                if(array1[i][j] == 1)
+                {
+                    print(Found(f,i,j));
+                    
+
+
+                }
+                     
+
+            }
+        }
+        string Found(string f, int i, int j)
+        {                        
+            return $"{f},{i},{j}";
         }
 
+        print(Massiv(Min, Max, t));
+
+        string Massiv(int Min, int Max, int t)
         {
-            print(raznica);
+
+            return $"{Min},{Max},{t}";
         }
+
+        
         
     }
 
-    
     void Update()
     {
+        
+
+        
+     
+        
+        
+
+        
+   
         
     }
 }

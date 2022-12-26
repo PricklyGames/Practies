@@ -4,29 +4,40 @@ using UnityEngine;
 
 public class ex4 : MonoBehaviour
 {
+
     
     void Start()
     {
-    
-        
-            
-        for(int t = 5; t <= 10; t++)
+        print("ex4");
+        int lines = 3;
+        int columns = 4;
+      
+                
+        int[,] array = new int[lines, columns];
+        for(int i = 0; i < array.GetLength(0); i++)
         {
-            int j = t * 5;
-            print($"{t}*5={j}");
 
-            
+            for(int j = 0; j < array.GetLength(1); j++)
+            {
+
+
+
+                print(Matrica(array[i,j])); 
+            }
+            print("\n");
+        
+                
+                
         }
-            
-            
-        
-            
-        
+        int Matrica(int a)
+        {
+            return a;
+        } 
+       
+     
+
 
     }
-    
-        
-    
 
     
     void Update()
