@@ -9,7 +9,7 @@ public class ex_4 : MonoBehaviour
     {
         Point point1 = new() { x = 5, y = 2, z = 3};
         Point point2 = new() { x = 3, y = 4, z = 5 };
-        Debug.Log(point1.CalcDist(point2));
+        Debug.Log($"Distance between points: {point1.CalcDist(point2)}");
         point1.ZeroPoint();
         point2.OffsetPoint();
         Debug.Log($"{point1.x}, {point1.y}, {point1.z}");
