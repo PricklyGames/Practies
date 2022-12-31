@@ -18,10 +18,10 @@ public class Ex_1 : MonoBehaviour
 
         Practices_2 practices_2 = new Practices_2();
         //practices_2.Ex_3(5);
-        //practices_2.PrintTwoDimensonalArray(practices_2.GetTwoDimensonalArray(3, 5));
-        //practices_2.PrintRCJArray(practices_2.GetRandomColumnsJaggedArray(5));
+        //practices_2.PrintArray(practices_2.GetTwoDimensonalArray(3, 5));
+        //practices_2.PrintArray(practices_2.GetRandomColumnsJaggedArray(5));
         //practices_2.Ex_6();
-        practices_2.week(66);
+        practices_2.Week(3);
     }
 }
 
@@ -155,7 +155,7 @@ namespace Space_2
             return array;
         }
 
-        public void PrintTwoDimensonalArray(int[,] array)
+        public void PrintArray(int[,] array)
         {
             for (int i = 0; i < array.GetLength(0); i++)
             {
@@ -183,7 +183,7 @@ namespace Space_2
             return array;
         }
 
-        public void PrintRCJArray(int[][] array)
+        public void PrintArray(int[][] array)
         {
             for (int i = 0; i < array.Length; i++)
             {
@@ -217,7 +217,7 @@ namespace Space_2
             number = Random.Range(-100, 101);
         }
 
-        public void week(int day)
+        public void Week(int day)
         {
             switch (day)
             {
@@ -249,5 +249,3 @@ namespace Space_2
         }
     }
 }
-
-
