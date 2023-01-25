@@ -1,0 +1,133 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5335042629145986920
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2125493678725855421}
+  - component: {fileID: 7326529593930609785}
+  - component: {fileID: 7258703635391120368}
+  - component: {fileID: 3165818563329268173}
+  - component: {fileID: -7352454535130706996}
+  - component: {fileID: 4964208676984220834}
+  - component: {fileID: 1927807967612068222}
+  - component: {fileID: -9187128204780169273}
+  m_Layer: 0
+  m_Name: Rudnev_YA
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2125493678725855421
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5335042629145986920}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7326529593930609785
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5335042629145986920}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98ebfef46e11e174ea730c54620bbd08, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  N: 0
+--- !u!114 &7258703635391120368
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5335042629145986920}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f26722db54111641ad5e3703cf59781, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  N: 0
+--- !u!114 &3165818563329268173
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5335042629145986920}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45e105d548d46cb478c878def58a397b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  NMas_1: 5
+  NMas_2: 0
+--- !u!114 &-7352454535130706996
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5335042629145986920}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfd94aebfda6f5144a04fe07ba8865a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  row: 0
+  column: 0
+--- !u!114 &4964208676984220834
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5335042629145986920}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86ad5f19a9973c44e872e395746b49d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  row: 11
+--- !u!114 &1927807967612068222
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5335042629145986920}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7588180bc27ba4b4cb7f5bfb1bae8e06, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  count: 22
+--- !u!114 &-9187128204780169273
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5335042629145986920}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4105c465dc8b574c8c45f87a324d7f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dayWeek: 1
