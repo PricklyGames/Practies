@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b39e043bfd823a246b6e5668f0116993, type: 3}
+  m_Name: PoisonPotion
+  m_EditorClassIdentifier: 
+  ID: 0
+  DisplayName: Poison Potion
+  Description: 'This is a poison potion.
+
+'
+  Icon: {fileID: 21300000, guid: 2c20a350fa6df234da04dcecb2d01a89, type: 3}
+  MaxStackSize: 1
+  GoldValue: 50
+  Health: -30
+  ItemPrefab: {fileID: 1568978692772171689, guid: f9791f0b6fe471248b85ef4eff3e096f, type: 3}
